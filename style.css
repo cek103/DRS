@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Navbar Section */
+
+.navbar {
+    background: #131313;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 70px;
+}
+
+.navbar__links {
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 2.5rem;
+    height: 100%;
+}
+
+.navbar__links:hover {
+    color:crimson;
+    transition: all 0.3s ease;
+}
+
+/* Hero Section */
+.banner__container {
+    position: relative;
+    align-items: center;
+    text-align: center;
+} 
+
+#banner-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.banner__content {
+    background-color: rgb(233, 233, 233);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.banner__content h3 {
+    font-size: 2vw;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+/* Products Section */
+.section__titles {    /* Also affects other section headers */
+    padding-top: 5%;
+    text-align: center;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    font-size: 2vw;
+}
+
+.products__container p {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: .8vw;
+    font-family: "FreeMono", monospace;
+}
+
+.row {
+    margin-left: 12.5%;
+    margin-right: 10%;
+    max-block-size: 500px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1vw;
+}
+
+.col-sm-4 {
+    padding-top: 2.5%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.col-sm-4 .center-block {
+    display: block;
+    position: center;
+    height: 50%;
+    width: 50%;
+}
+
+/* About Us Section */
+#about__us {
+    margin-top: 10%;
+}
+
+.about__us__container {
+    background-color: rgb(233, 233, 233);
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.about__us__container p {
+    font-size: .75vw;
+    padding-top: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 25px;
+}
+
+#about__us__pic {
+    padding-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
