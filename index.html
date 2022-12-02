@@ -31,6 +31,10 @@
                 <img src="https://www.dumpsterrentalsystems.com/wp-content/uploads/2019/03/cropped-Logo_hi-res-ohqdoretynhxm51n8vy21qta22x0191guusoh48k5c-1-4.png" alt="DRS" id="DRS__logo">
             </a>
 
+            <!-- <div class="radio-btn">
+                <div class="radio-inner"></div>
+            </div> -->
+
             <ul class="navbar__menu">
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">Home</a>
@@ -39,12 +43,17 @@
                     <a href="#products" class="navbar__links">Products</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="about__us__container" class="navbar__links">About Us</a>
+                    <a href="#about__us__container" class="navbar__links">About Us</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Contact Us</a>
+                    <a href="#contact__us" class="navbar__links">Contact Us</a>
                 </li>
             </ul>
+
+            <div class="radio-btn">
+                <div class="radio-inner"></div>
+            </div>
+
         </div>
     </nav>
 
@@ -91,6 +100,23 @@
             With DRS, you can have as many customers accessing your site at once for no extra charge. The sky’s the limit for your dumpster business with a 
             little help from our custom-tailored dumpster software.</p>
             <img src="https://www.dumpsterrentalsystems.com/wp-content/uploads/2022/11/New-Project-1.png" id="about__us__pic">
+    </div>
+
+    <!-- Contact Us Section -->
+    <div class="contact__us__container">
+        <h1 class="section__titles" id="contact__us">Contact Us</h1>
+        <div class="form__container">
+            <form action="mailto:curtiseugenekelso@gmail.com" method="post" enctype="text/plain" id="email__form">
+                Name:<br>
+                <input type="text" name="name" id="name"><br>
+                Subject:<br>
+                <input type="text" name="subject" id="subject"><br>
+                Comment:<br>
+                <input type="text" name="comment" size="50" id="comment"><br><br>
+                <input type="submit" value="Send" id="send__button">
+                <input type="reset" value="Reset">
+                </form>
+        </div>
     </div>
 
     <script src="script.js"></script>
